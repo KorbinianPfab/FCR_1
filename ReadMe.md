@@ -1,0 +1,4 @@
+# Towards Improved Research Methodologies for Industrial AI: A Critical Examination using Automated Optical Inspection False Call Reduction as a Case Study - Source code
+This is the source code of the publication 'Towards Improved Research Methodologies for Industrial AI: A Critical Examination using Automated Optical Inspection False Call Reduction as a Case Study' and shall enable reproducible results. The main scripts are standard_models.py, autoML_models.py and dummy_model.py. They require a local MLFlow server running, as the results are logged there. 
+Our results are included in the repository in the /notebooks/runs folder. The evaluation is done in the runs_eval.ipynb in /notebooks/ . 
+AutoML models require a linux environment and also changes in the pyproject.toml file as there are incompatibilities with the package imbalanced-learn and auto-sklearn. 

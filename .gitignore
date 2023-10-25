@@ -1,0 +1,10 @@
+fcr_case_study/data/raw_data/**
+fcr_case_study/data/not_anonymized_data/**
+fcr_case_study/public/figs/**
+**/__pycache__
+**/mlruns
+**/__pycache__
+fcr_case_study/src/__pycache__
+.vscode
+mlartifacts
+.trash
