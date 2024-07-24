@@ -1,1 +1,1 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
+fcr_case_study/data/anonymized_data/FCR_dataset.csv filter=lfs diff=lfs merge=lfs -text

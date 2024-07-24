@@ -47,7 +47,7 @@ np.random.seed(SEED)
 
 def load_and_prepare_data():
     df = pd.read_csv(
-        "./fcr_case_study/data/anonymized_data/KoPf_FCR_dataset.csv",
+        "./fcr_case_study/data/anonymized_data/FCR_dataset.csv",
         index_col=0,
     ).drop(columns="timestamp")
     categorical_columns = [

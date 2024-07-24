@@ -1,4 +1,3 @@
-fcr_case_study/data/raw_data/**
 fcr_case_study/data/not_anonymized_data/**
 fcr_case_study/public/figs/**
 **/__pycache__
